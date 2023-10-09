@@ -1,0 +1,8 @@
+- changes to readonly semantics:
+  - it's implemented with a flag when creating a connection
+  - macros on create/startup cannot modify a ro database
+  - opening an in-memory db as read only is not possible
+- numFiles => numBackups (and backups are directories)
+- parameters are positional
+- removed noFail
+- removed journalMode
