@@ -1,5 +1,8 @@
 .PHONY: test
 
+build-docker:
+	docker build -t duckrg .
+
 clean:
 	cargo clean
 	rm -rf bin
