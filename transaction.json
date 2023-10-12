@@ -1,0 +1,16 @@
+{
+    "transaction": [
+        {
+            "statement": "install 'httpfs';"
+	},
+        {
+            "statement": "load 'httpfs';"
+	},
+	{
+            "query": "from customer select * limit 5"
+        },
+	{
+	    "query": "from read_json_auto('https://api.openalex.org/counts')"
+	}
+    ]
+}
