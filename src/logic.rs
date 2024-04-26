@@ -50,6 +50,8 @@ fn val_db2val_json(val: Value) -> JsonValue {
         Value::Timestamp(_, i) => json!(i), // FIXME
         Value::Text(v) => json!(v),
         Value::Blob(v) => json!(v),
+        Value::Enum(v) => json!(v),
+        _ => JsonValue::Null,
     }
 }
 
