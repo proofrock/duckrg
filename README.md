@@ -1,3 +1,5 @@
+> **Hey! This project is archived. I decided to switch back the development on [ws4sqlite](https://github.com/proofrock/ws4sqlite), for reasons expressed in [this discussion](https://github.com/proofrock/ws4sqlite/discussions/44). If you'll want to hack on it, though, I'll be more than glad to assist!**
+
 # 🦆 Introduction
 
 **duckrg** is a server-side application that, applied to one or more SQLite files, allows to perform SQL queries and statements on them via REST (or better, JSON over HTTP).
